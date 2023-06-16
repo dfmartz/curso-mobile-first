@@ -1,0 +1,31 @@
+/*
+* 1. Position - (static, absolute, relative, fixed)
+* 2. Box Model - (margin, border, padding, content)
+* 3. Fonts - (types, size, etc)
+* 4. Visual Themes - (box-shadow, border-radius, gradient, etc)
+* 5. Miscellaneous - (rules, others...)
+*/
+
+:root{
+    /** Colors */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --white: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
