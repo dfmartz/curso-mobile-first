@@ -166,15 +166,14 @@ main {
     width: 70%;
     min-width: 291px;
     max-width: 500px;
-    height: 360px;
+    height: 340px;
     margin: 0 18px;
     font-family: 'Intern', sans-serif;
 }
 
 .main-currency-table .currency-table--title,
 .main-commissions-table .commissions-table--title {
-    margin: 0 0 10px 25px;
-    text-align: start;
+    margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -457,7 +456,7 @@ main {
 .main-tables-container,
 .plans-container--slider {
     display: flex;
-    height: 316px;
+    height: 320px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
